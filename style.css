@@ -25,6 +25,10 @@ nav {
     font-weight: bold;
 }
 
+a.logo-link {
+    text-decoration: none;
+}
+
 ul {
     list-style: none;
     display: flex;
