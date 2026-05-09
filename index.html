@@ -1,30 +1,85 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Warm Grounds Café</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <nav>
-        <a href="index.html" class="logo-link">
-            <div class="logo">Warm Grounds Café</div>
-        </a>
+    <header class="hero-section">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <div class="nav-left">
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                </div>
 
-        <ul>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+                <!-- CENTER LOGO -->
+                <li class="logo-container">
+                    <a href="index.html" class="logo">
+                        <img src="assets/logo.png" alt="Warm Grounds Café Logo">
+                    </a>
+                </li>
 
-	<footer>
-		<p>© 2026 Warm Grounds Café. All rights reserved.</p>
-	</footer>
+                <!-- RIGHT LINKS -->
+                <div class="nav-right">
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </div>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Experience the Perfect Brew</h1>
+            <p>Your daily escape into cozy comfort.</p>
+            <a href="menu.html" class="btn">View Menu</a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ABOUT SECTION -->
+        <section class="about-section">
+            <h2>About Warm Grounds</h2>
+
+            <p>
+                Warm Grounds Café is your cozy escape from the busy world.
+                We serve handcrafted coffee made with passion, creating
+                the perfect space to relax, work, and connect.
+            </p>
+        </section>
+
+        <!-- FEATURED SECTION -->
+        <section class="featured-section">
+            <h2>Featured Drinks</h2>
+
+            <div class="featured-container">
+
+                <div class="drink-card">
+                    <h3>Caramel Latte</h3>
+                    <p>Rich espresso with creamy caramel flavor.</p>
+                </div>
+
+                <div class="drink-card">
+                    <h3>Mocha Bliss</h3>
+                    <p>A perfect blend of coffee and chocolate.</p>
+                </div>
+
+                <div class="drink-card">
+                    <h3>Classic Cappuccino</h3>
+                    <p>Smooth milk foam over bold espresso.</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Warm Grounds Café. All rights reserved.</p>
+    </footer>
 
 </body>
-
 </html>
