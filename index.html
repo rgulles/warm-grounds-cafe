@@ -6,25 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Warm Grounds Café</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="nav-left">
-            <a href="menu.html">Menu</a>
-            <a href="about.html">About</a>
+    <div class="hero-wrapper">
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="menu.html">Menu</a>
+                <a href="about.html">About</a>
+            </div>
+            <div class="nav-center">
+                <a href="index.html" class="logo">
+                    <img src="assets/logo.png" alt="Warm Grounds Logo" class="logo-img">
+                </a>
+            </div>
+            <div class="nav-right">
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Experience the<br>Perfect Brew</h1>
+                <p>Your daily escape into cozy comfort.</p>
+                <a href="menu.html" class="btn-primary">View Menu</a>
+            </div>
+        </section>
+    </div>
+
+    <section class="popular-drinks">
+        <h2 class="section-title">Popular Drinks</h2>
+        <div class="drinks-grid">
+            <div class="drink-card">
+                <img src="assets/americano.jpg" alt="Americano" class="drink-img">
+                <div class="drink-info">
+                    <h3>Americano</h3>
+                    <p class="drink-price">$8.50</p>
+                    <p class="drink-desc">A classic choice for coffee purists. We blend 100% natural Arabica beans with
+                        a touch of Robusta, carefully extracted to deliver a bold, rich, and smooth experience in every
+                        single cup.</p>
+                </div>
+                <div class="drink-tags">
+                    <span class="tag">Hot</span>
+                    <span class="tag">Low Cal</span>
+                </div>
+            </div>
+
+            <div class="drink-card">
+                <img src="assets/cappuccino.jpg" alt="Cappuccino" class="drink-img">
+                <div class="drink-info">
+                    <h3>Cappuccino</h3>
+                    <p class="drink-price">$8.50</p>
+                    <p class="drink-desc">A perfect harmony of intense espresso and velvety smooth milk. Crafted with
+                        premium roast and delicately steamed milk, topped with a thick layer of creamy foam.</p>
+                </div>
+                <div class="drink-tags">
+                    <span class="tag">Hot</span>
+                    <span class="tag">Popular</span>
+                </div>
+            </div>
+
+            <div class="drink-card">
+                <img src="assets/latte.jpg" alt="Latte" class="drink-img">
+                <div class="drink-info">
+                    <h3>Latte</h3>
+                    <p class="drink-price">$9.00</p>
+                    <p class="drink-desc">Indulge in our creamy signature latte. Featuring a generous pour of steamed
+                        milk gently folded into our rich espresso, creating a beautifully mellow and comforting flavor
+                        profile.</p>
+                </div>
+                <div class="drink-tags">
+                    <span class="tag">Hot</span>
+                    <span class="tag">Sweet</span>
+                </div>
+            </div>
         </div>
-        <div class="nav-center">
-            <a href="index.html" class="logo">
-                <img src="assets/logo.png" alt="Warm Grounds Logo" class="logo-img">
-            </a>
-        </div>
-        <div class="nav-right">
-            <a href="gallery.html">Gallery</a>
-            <a href="contact.html">Contact</a>
-        </div>
-    </nav>
+        <a href="menu.html" class="btn-primary" style="margin-top: 20px;">View Full Menu</a>
+    </section>
 
     <footer class="footer">
         <p>&copy; 2024 Warm Grounds Café. All rights reserved.</p>
