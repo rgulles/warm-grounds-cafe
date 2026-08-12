@@ -613,3 +613,84 @@ body {
     border-top: 1px solid #222222;
     margin-top: auto;
 }
+
+/* ------------------------ MENU PAGE ------------------------ */
+.menu-page-container {
+    background-color: #000;
+    padding: 80px 140px 120px 140px;
+}
+
+.menu-category {
+    margin-bottom: 100px;
+}
+
+.menu-category h2 {
+    color: #eaeaea;
+    font-size: 40px;
+    margin-bottom: 80px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px 40px;
+}
+
+.menu-card {
+    width: 280px;
+    background-color: #eee8e0;
+    border-radius: 20px;
+    position: relative;
+    padding: 20px 25px;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+.menu-card-img {
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.15));
+    transition: transform 0.3s ease;
+}
+
+.menu-card:hover .menu-card-img {
+    transform: translateX(-50%) scale(1.05);
+}
+
+.menu-card-title {
+    color: #222;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.menu-card-price {
+    background-color: rgba(164, 118, 83, 0.15);
+    color: #a47653;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+}
